@@ -81,4 +81,18 @@ bat.bing.com
 # BidSwitch and ad exchange
 x.bidswitch.net
 
+# BidTheatre (vendor-documented OpenRTB endpoints)
+adsby.bidtheatre.com
+match.adsby.bidtheatre.com
+
+# AudienceProject / UserReport (vendor-documented measurement endpoints)
+tag.userreport.com
+ics.userreport.com
+
+# Cavai (vendor-documented creative delivery endpoint)
+delivery-0.cavai.com
+
 # Note: other listed Schibsted vendors not yet reliably mapped to dedicated ad hostnames.
+# Vendor membership does not prove any particular hostname is contacted by a Schibsted site.
+# Source references: bidtheatre.readme.io/docs/introduction ; gdpr.audienceproject.com/data-collection/ ; docs.cavai.com/guide/misc/feeds
+
