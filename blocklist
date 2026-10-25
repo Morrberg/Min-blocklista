@@ -1,0 +1,84 @@
+# Schibsted vendor-focused Pi-hole blocklist, 2026-10-25
+# DNS hostnames used for advertising, measurement and tracking.
+# One hostname per line. Exact-host blocking: this list is NOT a wildcard list.
+# This is a curated starting list, NOT proof that each domain is loaded by Schibsted.
+# Avoid adding vendor homepage domains or Schibsted news domains here.
+
+# Adform
+track.adform.net
+server.adform.net
+s1.adform.net
+s2.adform.net
+c1.adform.net
+cm.adform.net
+adx.adform.net
+a1.adform.net
+a2.adform.net
+dmp.adform.net
+jstrp.adform.net
+
+# Adnuntius (officially documented delivery endpoints)
+delivery.adnuntius.com
+europe.delivery.adnuntius.com
+limited.delivery.adnuntius.com
+
+# Criteo
+static.criteo.net
+gum.criteo.com
+dis.criteo.com
+dis.eu.criteo.com
+ssp-sync.criteo.com
+grid-bidder.criteo.com
+
+# The Trade Desk
+match.adsrvr.org
+insight.adsrvr.org
+js.adsrvr.org
+direct.adsrvr.org
+ad.adsrvr.org
+data.adsrvr.org
+v.adsrvr.org
+
+# Google advertising (not Google core services)
+googleads.g.doubleclick.net
+ad.doubleclick.net
+securepubads.g.doubleclick.net
+pubads.g.doubleclick.net
+pagead2.googlesyndication.com
+partner.googleadservices.com
+
+# Microsoft/Xandr
+ib.adnxs.com
+secure.adnxs.com
+acdn.adnxs.com
+
+# PubMatic
+ads.pubmatic.com
+image2.pubmatic.com
+sync.pubmatic.com
+
+# Amazon advertising (not amazon.com retail)
+aax.amazon-adsystem.com
+c.amazon-adsystem.com
+s.amazon-adsystem.com
+
+# DoubleVerify / Integral Ad Science
+cdn.doubleverify.com
+rtb0.doubleverify.com
+pixel.adsafeprotected.com
+static.adsafeprotected.com
+
+# MGID / FreeWheel / Adobe / Flashtalking
+jsc.mgid.com
+ads.mgid.com
+mssl.fwmrm.net
+2975c.v.fwmrm.net
+servedby.flashtalking.com
+
+# Microsoft Advertising tracking
+bat.bing.com
+
+# BidSwitch and ad exchange
+x.bidswitch.net
+
+# Note: other listed Schibsted vendors not yet reliably mapped to dedicated ad hostnames.
