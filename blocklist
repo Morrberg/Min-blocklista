@@ -92,6 +92,14 @@ ics.userreport.com
 # Cavai (vendor-documented creative delivery endpoint)
 delivery-0.cavai.com
 
+# SeenThis (advertising video delivery / measurement)
+video.seenthis.se
+t.seenthis.se
+npv-cdn.seenthis.se
+
+# Adssets AB: confirmed Schibsted vendor, but no separately verified ad-delivery
+# hostname has been identified. Do not block adssets.com indiscriminately.
+
 # Note: other listed Schibsted vendors not yet reliably mapped to dedicated ad hostnames.
 # Vendor membership does not prove any particular hostname is contacted by a Schibsted site.
 # Source references: bidtheatre.readme.io/docs/introduction ; gdpr.audienceproject.com/data-collection/ ; docs.cavai.com/guide/misc/feeds
